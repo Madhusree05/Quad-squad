@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+    font-family: Arial, sans-serif;
+  }
+  nav {
+    background: #060000;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav .logo h1 {
+    font-size: 50px;
+}
+
+nav .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav .nav-links a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+  
+
+  
+  .g-button {
+    background-color: #c1cfd7; /* Button color */
+    border: none;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px #1de8ff, 0 0 15px #1df7ff, 0 0 30px #ffff1d;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+    flex-direction: row;
+    gap: 50px; 
+  }
+  
+  .g-button:hover {
+    box-shadow: 0 0 20px#050609, 0 0 40px#07090c, 0 0 60px #050608;
+    transform: scale(1.05);
+  }
+  
+  .g-button:active {
+    transform: scale(0.95);
+  }
+
+
+   
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+  }
+

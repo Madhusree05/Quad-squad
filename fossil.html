@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fossil</title>
+    <link rel="stylesheet" href="A.css">
+    
+</head>
+<body>
+  <div class="glass">
+     <hr>
+    <div class="wavy-text">
+     <center> 
+      <h1>FOSSIL</h1>
+    </center>
+    </div>
+
+      <hr>
+      <br>
+<center>
+    <div class="box1">
+      <img src="fs1.jpg" height="400";width="50"><br>
+      <h2 style="color:black">Price:$50</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+    </div>
+<br><br>
+<hr>
+    <div class="box2">
+      <img src="fs2.jpg" height="400";width="50"><br>
+      <h2 style="color:black">Price:$70</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+
+    </div>
+    <hr>
+<br><br>
+    <div class="box3">
+      <img src="fs3.jpg" height="400";width="50"><br>
+      <h2 style="color:rgb(0, 0, 0)">Price:$75</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+    </div><hr>
+<br><br>
+    <div class="box4">
+      <img src="fs4.jpg" height="350";width="50"><br>
+      <h2 style="color:black">Price:$56</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+      
+    </div><hr>
+<br><br>
+    <div class="box5">
+      <img src="fs5.webp" height="400";width="50"><br>
+      <h2 style="color:rgb(0, 0, 0)">Price:$63</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+    </div>
+</center>
+
+<script>
+ 
+  const buyButtons = document.querySelectorAll('.glowing-button:nth-of-type(1)');
+  const addToCartButtons = document.querySelectorAll('.glowing-button:nth-of-type(2)');
+  buyButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      alert(`Are you sure to place this oreder???`);
+    });
+  });
+
+  addToCartButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      alert(`This product is added to your cart!!!`);
+    });
+  });
+</script>
+
+<p>Return to<a href="m.html">  Home Page</a></p>
+
+
+</div>
+     
+      
+</body>
+</html>

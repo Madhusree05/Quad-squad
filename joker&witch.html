@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKER&WITCH</title>
+    <link rel="stylesheet" href="A.css">
+</head>
+<body>
+  <div class="glass">
+     <hr>
+    <div class="wavy-text">
+     <center> 
+      <h1>JOKER&WITCH</h1>
+      
+    </center>
+    </div>
+
+      <hr>
+      <br>
+<center>
+    <div class="box1">
+      <img src="J1.jpg" height="400";width="50"><br>
+      <h2 style="color: rgb(0, 0, 0)">Price:$57</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+    </div>
+<br><br>
+<hr>
+    <div class="box2">
+      <img src="J2.jpg" height="400";width="50"><br>
+      <h2 style="color: rgb(0, 0, 0)">Price:$67</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+
+    </div>
+    <hr>
+<br><br>
+    <div class="box3">
+      <img src="J3.jpg" height="400";width="50"><br>
+      <h2 style="color: rgb(0, 0, 0)">Price:$76</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+    </div><hr>
+<br><br>
+    <div class="box4">
+      <img src="J4.jpg" height="350";width="50"><br>
+      <h2 style="color: rgb(0, 0, 0)">Price:$95</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+      
+    </div><hr>
+<br><br>
+    <div class="box5">
+      <img src="J5.jpg" height="400";width="50"><br>
+      <h2 style="color: rgb(0, 0, 0)">Price:$64</h2>
+      <button class="glowing-button">BUY</button>
+      <button class="glowing-button">ADD TO CART</button>
+    </div>
+
+    <script>
+ 
+      const buyButtons = document.querySelectorAll('.glowing-button:nth-of-type(1)');
+      const addToCartButtons = document.querySelectorAll('.glowing-button:nth-of-type(2)');
+      buyButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+          alert(`Your order is placed !!!`);
+        });
+      });
+    
+      addToCartButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+          alert(`This product is added to your cart!!!`);
+        });
+      });
+    </script>
+    
+    
+</center>
+</div>
+
+<p>Return to<a href="m.html">  Home Page</a></p>
+     
+      
+</body>
+</html>
